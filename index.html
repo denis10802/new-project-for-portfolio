@@ -1,173 +1,411 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/070815a9a5.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <header>
-       <nav>
-           <input type="checkbox" id="checkbox-menu">
-           <label for="checkbox-menu">
-               <ul class="menu touch">
-                   <li><a href="#" class="logo">luxestate</a></li>
-                   <li><a href="#">About</a></li>
-                   <li><a href="#">Apartment</a></li>
-                   <li><a href="#">How it work</a></li>
-                   <li><a href="#">Agents</a></li>
-                   <li><a href="#" class="contacts">Contact us</a></li>
-                   <li><a href="#">Join Us</a></li>
-                   <li><a href="#">Getting Started</a></li>
-               </ul>
-               <span class="toggle">☰</span>
-           </label>
-       </nav>
-   </header>
-   <main>
-       <section class="intro wrapper">
-          <div class="intro-img">
-              <p class="intro-text">Find Your New <br>
-              Modern Apartment</p>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/070815a9a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="checkbox-menu" />
+        <label for="checkbox-menu">
+          <ul class="menu touch">
+            <li><a href="#" class="logo">luxestate</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Apartment</a></li>
+            <li><a href="#">How it work</a></li>
+            <li><a href="#">Agents</a></li>
+            <li><a href="#" class="contacts">Contact us</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="#">Getting Started</a></li>
+          </ul>
+          <span class="toggle">☰</span>
+        </label>
+      </nav>
+    </header>
+    <main>
+      <section class="intro wrapper">
+        <div class="intro-img">
+          <p class="intro-text">
+            Find Your New <br />
+            Modern Apartment
+          </p>
+        </div>
+
+        <div class="intro-contacts">
+          <p><i class="fas fa-phone-alt"></i> (000)1234-5678</p>
+          <p><i class="fas fa-map-marker-alt"></i>Canada, Toronto</p>
+        </div>
+      </section>
+      <section class="stats wrapper">
+        <div class="stats-text">
+          <h2>
+            Our's Company <br />
+            Statistics
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur rem perferendis similique est repellendus doloremque,
+            eius iste sequi architecto sapiente nobis deserunt culpa tempore
+            nostrum quaerat itaque harum. Cum autem exercitationem quis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur rem perferendis similique est repellendus doloremque,
+            eius iste sequi architec to sapiente nobis deserunt culpa tempore
+            nostrum quaerat itaque harum. Cum autem exercitationem quis!
+          </p>
+        </div>
+        <div class="stats-num">
+          <div class="stats-line">
+            <div class="square">
+              <span class="stats-square">3445</span>
+              <span class="square-text">Appartment</span>
+            </div>
+            <div class="square">
+              <span class="stats-square">3445</span>
+              <span class="square-text">Appartment</span>
+            </div>
           </div>
-          
-          <div class="intro-contacts">
-              <p><i class="fas fa-phone-alt"></i> (000)1234-5678</p>
-              <p><i class="fas fa-map-marker-alt"></i>Canada, Toronto</p>
-          </div>           
-       </section>
-       <section class="stats wrapper">
-          <div class="stats-text">
-             <h2>Our's Company <br> Statistics</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur rem perferendis 
-             similique est repellendus doloremque, eius iste sequi architecto
-              sapiente nobis deserunt culpa tempore 
-             nostrum quaerat itaque harum. Cum autem exercitationem quis!</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consectetur rem perferendis similique est repellendus doloremque,
-               eius iste sequi architec
-             to sapiente nobis deserunt culpa tempore nostrum quaerat itaque harum. Cum autem exercitationem quis!</p>              
+          <div class="stats-line">
+            <div class="square">
+              <span class="stats-square">3445</span>
+              <span class="square-text">Appartment</span>
+            </div>
+            <div class="square">
+              <span class="stats-square">3445</span>
+              <span class="square-text">Appartment</span>
+            </div>
           </div>
-          <div class="stats-num">
-             <div class="stats-line">
-                 <div class="square">
-                     <span class="stats-square">3445</span>
-                     <span class="square-text">Appartment</span>
-                 </div>                             
-                 <div class="square">
-                     <span class="stats-square">3445</span>
-                     <span class="square-text">Appartment</span>
-                 </div>
+        </div>
+      </section>
+      <section class="apartaments">
+        <div class="wrapper apart">
+          <h2>
+            More than 500+ <br />
+            Appartments For Rent
+          </h2>
+          <div class="cards">
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
+                  </div>
+                </div>
               </div>
-                <div class="stats-line">
-                 <div class="square">
-                     <span class="stats-square">3445</span>
-                     <span class="square-text">Appartment</span>
-                 </div>                
-                 <div class="square">
-                     <span class="stats-square">3445</span>
-                     <span class="square-text">Appartment</span>
-                 </div>
-             </div> 
-          </div>          
-       </section>
-       <section class="apartaments">
-          <div class="wrapper apart">
-              <h2>More than 500+ <br> Appartments For Rent</h2>
-              <div class="cards">
-                  <div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div><div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
+            </div>
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
                   </div>
-                     <div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                     <div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                     <div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                     <div class="card">
-                      <img src="img/apart.jpg" alt="">
-                      <div class="card-container">
-                          <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                          <div class="card-info">
-                              <div class="money">$3500</div>
-                              <div class="info">
-                                  <span><i class="fas fa-shower"></i>2BA</span>
-                                  <span><i class="fas fa-bed"></i>2BD</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                </div>
               </div>
-              <div class="buttons-search">
-                 <form action="">
-                     <input type="text" placeholder="Search Locations">
-                     <input type="submit" value="Search">
-                 </form>
-                  <button class="all">View all Apartments</button>
+            </div>
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/apart.jpg" alt="" />
+              <div class="card-container">
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <div class="card-info">
+                  <div class="money">$3500</div>
+                  <div class="info">
+                    <span><i class="fas fa-shower"></i>2BA</span>
+                    <span><i class="fas fa-bed"></i>2BD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-           
-       </section>
-   </main>
+          <div class="buttons-search">
+            <form action="">
+              <input type="text" placeholder="Search Locations" />
+              <input type="submit" value="Search" />
+            </form>
+            <button class="all">View all Apartments</button>
+          </div>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="wrapper">
+          <h2>How It Work</h2>
+          <p class="steps-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <p class="steps-text mbtext">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipisicing elit.
+          </p>
+          <div class="steps-container">
+            <div class="stepblock" id="stepbl1">
+              <p class="step-num">01</p>
+              <h4><span>01</span>Find Your Location</h4>
+              <p class="step-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                quae nihil accusantium, velit quidem repellat.
+              </p>
+              <p class="stepinfolast" id="stepbrdr1">Find Location</p>
+            </div>
+            <div class="stepblock" id="stepbl2">
+              <p class="step-num">02</p>
+              <h4><span>02</span>Find Your Location</h4>
+              <p class="step-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                quae nihil accusantium, velit quidem repellat.
+              </p>
+              <p class="stepinfolast" id="stepbrdr2">Find Location</p>
+            </div>
+            <div class="stepblock" id="stepbl3">
+              <p class="step-num">03</p>
+              <h4><span>03</span>Find Your Location</h4>
+              <p class="step-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                quae nihil accusantium, velit quidem repellat.
+              </p>
+              <p class="stepinfolast" id="stepbrdr3">Find Location</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services wrapper">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="serv-container">
+          <div class="serv-img-container">
+            <img src="img/room.jpg" alt="" />
+          </div>
+          <div class="serv-text">
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
+              quis praesentium. Pariatur, aspernatur!
+            </p>
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
+              quis praesentium. Pariatur, aspernatur!
+            </p>
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
+              quis praesentium. Pariatur, aspernatur!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="agents">
+        <div class="wrapper">
+          <h2>Meet Our Agents</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            Quae, nihil culpa! Voluptatem?
+          </p>
+          <div class="agent-cards">
+            <div class="agent-card">
+              <img src="img/people.jpg" alt="" />
+              <div class="agent-info">
+                <p>Agent</p>
+                <div class="agent-block">
+                  <p class="agent-name">Mr. Luke Skywalker</p>
+                  <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="agent-card">
+              <img src="img/people.jpg" alt="" />
+              <div class="agent-info">
+                <p>Agent</p>
+                <div class="agent-block">
+                  <p class="agent-name">Mr. Luke Skywalker</p>
+                  <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="agent-card">
+              <img src="img/people.jpg" alt="" />
+              <div class="agent-info">
+                <p>Agent</p>
+                <div class="agent-block">
+                  <p class="agent-name">Mr. Luke Skywalker</p>
+                  <div class="social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="add wrapper">
+        <div class="add-line">
+          <div class="line-img">
+            <img src="img/room2.jpg" alt="" />
+            <div class="location location-Toronto">
+              <i class="fas fa-map-marker-alt"></i>
+              Toronto, Canada
+            </div>
+          </div>
+          <div class="line-text">
+            <h3>Super Awesome Add</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              quos porro natus reprehenderit modi voluptatem possimus earum
+              maxime repellat, sapiente, tenetur? Quis, maxime dolore fugit qui
+              adipisci provident doloribus numquam, ullam sint ab eos,
+              accusamus.
+            </p>
+          </div>
+        </div>
+        <div class="add-line add-line-right" id="lot">
+          <div class="line-text">
+            <h3>Super Awesome Add</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              quos porro natus reprehenderit modi voluptatem possimus earum
+              maxime repellat, sapiente, tenetur? Quis, maxime dolore
+            </p>
+          </div>
+          <div class="line-img">
+            <img src="img/room2.jpg" alt="" />
+            <div class="location location-Canada">
+              <i class="fas fa-map-marker-alt"></i>
+              Toronto, Canada
+            </div>
+          </div>
+        </div>
+        <div class="add-line">
+          <div class="line-img">
+            <img src="img/room2.jpg" alt="" />
+          </div>
+          <div class="line-text">
+            <h3>Super Awesome Add</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+              quos porro natus reprehenderit modi voluptatem possimus earum
+              maxime repellat, sapiente, tenetur? Quis, maxime dolore fugit qui
+              accusamus.
+            </p>
+            <div class="show-more">Show me more</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-block">
+          <div class="footer-logo">
+            <h3>Luxestate</h3>
+            <h3>Explore Real Estate</h3>
+          </div>
+          <div class="footer-search">
+            <input type="text" placeholder="Subscribe To Our Newsletter" />
+          </div>
+        </div>
+        <hr />
+        <div class="footer-links">
+          <div class="footer-links-logo">
+            <h4>Luxestate</h4>
+          </div>
+          <div class="footer-link">
+            <p>Luxestate</p>
+            <a href="#">Agents</a>
+            <a href="#">Hunters</a>
+          </div>
+          <div class="footer-link">
+            <p>Luxestate</p>
+            <a href="#">Agents</a>
+            <a href="#">Hunters</a>
+            <a href="#">Agents</a>
+            <a href="#">Hunters</a>
+          </div>
+          <div class="footer-link">
+            <p>Luxestate</p>
+            <a href="#">Agents</a>
+            <a href="#">Hunters</a>
+          </div>
+          <div class="footer-link">
+            <p>Luxestate</p>
+            <a href="#">Agents</a>
+            <a href="#">Hunters</a>
+            <a href="#">Hunters</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
