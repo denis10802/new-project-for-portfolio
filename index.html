@@ -1,411 +1,379 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+            rel="stylesheet"
     />
     <script
-      src="https://kit.fontawesome.com/070815a9a5.js"
-      crossorigin="anonymous"
+            src="https://kit.fontawesome.com/070815a9a5.js"
+            crossorigin="anonymous"
     ></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <input type="checkbox" id="checkbox-menu" />
+</head>
+<body>
+<header>
+    <nav>
+        <input type="checkbox" id="checkbox-menu"/>
         <label for="checkbox-menu">
-          <ul class="menu touch">
-            <li><a href="#" class="logo">luxestate</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Apartment</a></li>
-            <li><a href="#">How it work</a></li>
-            <li><a href="#">Agents</a></li>
-            <li><a href="#" class="contacts">Contact us</a></li>
-            <li><a href="#">Join Us</a></li>
-            <li><a href="#">Getting Started</a></li>
-          </ul>
-          <span class="toggle">☰</span>
+            <ul class="menu touch">
+                <li><a href="#" class="logo">luxestate</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#how_work">Как мы работаем</a></li>
+                <li><a href="#team">Наши Команда</a></li>
+                <li><a href="#case">Наши кейсы</a></li>
+            </ul>
+            <span class="toggle">☰</span>
         </label>
-      </nav>
-    </header>
-    <main>
-      <section class="intro wrapper">
+    </nav>
+</header>
+<main>
+    <section class="intro wrapper">
         <div class="intro-img">
-          <p class="intro-text">
-            Find Your New <br />
-            Modern Apartment
-          </p>
+            <p class="intro-text">
+                Найдите Свою Новую квартиру <br/>
+                В современном стиле
+            </p>
         </div>
 
         <div class="intro-contacts">
-          <p><i class="fas fa-phone-alt"></i> (000)1234-5678</p>
-          <p><i class="fas fa-map-marker-alt"></i>Canada, Toronto</p>
+            <p><i class="fas fa-phone-alt"></i> (000)1234-5678</p>
+            <p><i class="fas fa-map-marker-alt"></i>Россия, Москва</p>
         </div>
-      </section>
-      <section class="stats wrapper">
+    </section>
+    <a name="about" class="stats wrapper">
         <div class="stats-text">
-          <h2>
-            Our's Company <br />
-            Statistics
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consectetur rem perferendis similique est repellendus doloremque,
-            eius iste sequi architecto sapiente nobis deserunt culpa tempore
-            nostrum quaerat itaque harum. Cum autem exercitationem quis!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consectetur rem perferendis similique est repellendus doloremque,
-            eius iste sequi architec to sapiente nobis deserunt culpa tempore
-            nostrum quaerat itaque harum. Cum autem exercitationem quis!
-          </p>
+            <h2>
+                О нашей компании <br/>
+            </h2>
+            <p>
+                Мы — разные, но нас объединяет профессионализм и стремление предоставлять качественные услуги. В
+                агентство поступает огромное количество благодарностей, мы давно перестали вести им счёт. Но это не
+                значит, что они потеряли для нас ценность. За каждым положительным откликом — часы телефонных
+                переговоров, поисков, показов, кропотливой работы с документами.
+            </p>
         </div>
         <div class="stats-num">
-          <div class="stats-line">
-            <div class="square">
-              <span class="stats-square">3445</span>
-              <span class="square-text">Appartment</span>
+            <div class="stats-line">
+                <div class="square">
+                    <span class="stats-square">4000</span>
+                    <span class="square-text">Квартир продано</span>
+                </div>
+                <div class="square">
+                    <span class="stats-square">1500</span>
+                    <span class="square-text">Объектов</span>
+                </div>
             </div>
-            <div class="square">
-              <span class="stats-square">3445</span>
-              <span class="square-text">Appartment</span>
+            <div class="stats-line">
+                <div class="square">
+                    <span class="stats-square">300+</span>
+                    <span class="square-text">Сделок этом году</span>
+                </div>
+                <div class="square">
+                    <span class="stats-square">80</span>
+                    <span class="square-text">Профессионалов</span>
+                </div>
             </div>
-          </div>
-          <div class="stats-line">
-            <div class="square">
-              <span class="stats-square">3445</span>
-              <span class="square-text">Appartment</span>
-            </div>
-            <div class="square">
-              <span class="stats-square">3445</span>
-              <span class="square-text">Appartment</span>
-            </div>
-          </div>
         </div>
-      </section>
-      <section class="apartaments">
+    </a>
+    <section class="apartaments">
         <div class="wrapper apart">
-          <h2>
-            More than 500+ <br />
-            Appartments For Rent
-          </h2>
-          <div class="cards">
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+            <h2>
+                Более 500+ <br/>
+                квартир в аренду
+            </h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/05_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9318, улица Хамовнический Вал, 36</p>
+                        <div class="card-info">
+                            <div class="money">100 млн</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+                <div class="card">
+                    <img src="img/1_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9311, улица Пресненский Вал, 27с2 </p>
+                        <div class="card-info">
+                            <div class="money">120 млн. р.</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+                <div class="card">
+                    <img src="img/10_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9310, СберCити ЖК, В21 кв-л, В21</p>
+                        <div class="card-info">
+                            <div class="money">295.0 млн. р.</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+                <div class="card">
+                    <img src="img/50_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9309, Садовническая улица, 82</p>
+                        <div class="card-info">
+                            <div class="money">67.0 млн. р.</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+                <div class="card">
+                    <img src="img/54_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9308, Садовническая улица, 82</p>
+                        <div class="card-info">
+                            <div class="money">55.0 млн. р.</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/apart.jpg" alt="" />
-              <div class="card-container">
-                <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                <div class="card-info">
-                  <div class="money">$3500</div>
-                  <div class="info">
-                    <span><i class="fas fa-shower"></i>2BA</span>
-                    <span><i class="fas fa-bed"></i>2BD</span>
-                  </div>
+                <div class="card">
+                    <img src="img/3_316.webp" alt=""/>
+                    <div class="card-container">
+                        <p>ID 9307, улица Зорге, 9к2</p>
+                        <div class="card-info">
+                            <div class="money">25.0 млн. р.</div>
+                            <div class="info">
+                                <span><i class="fas fa-shower"></i>2BA</span>
+                                <span><i class="fas fa-bed"></i>2BD</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="buttons-search">
-            <form action="">
-              <input type="text" placeholder="Search Locations" />
-              <input type="submit" value="Search" />
-            </form>
-            <button class="all">View all Apartments</button>
-          </div>
         </div>
-      </section>
-      <section class="steps">
+    </section>
+    <section class="steps">
+        <a name="how_work"></a>
         <div class="wrapper">
-          <h2>How It Work</h2>
-          <p class="steps-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <p class="steps-text mbtext">
-            Lorem ipsum dolor sit amet, consectetur <br />
-            adipisicing elit.
-          </p>
-          <div class="steps-container">
-            <div class="stepblock" id="stepbl1">
-              <p class="step-num">01</p>
-              <h4><span>01</span>Find Your Location</h4>
-              <p class="step-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-                quae nihil accusantium, velit quidem repellat.
-              </p>
-              <p class="stepinfolast" id="stepbrdr1">Find Location</p>
+            <h2>КАК МЫ РАБОТАЕМ</h2>
+            <p class="steps-text">
+                Мы предлагаем Вам стать частью динамичного рынка, не только в роли покупателя, но и как партнёра и
+                продавца.<br>
+
+            </p>
+            <p class="steps-text mbtext">
+                Приведите нам клиента, который хочет приобрести элитную недвижимость в Москве,
+                и получите крутое вознаграждение.<br/>
+                Все заботы мы возьмём на себя, а благодаря нашей удобной партнёрской платформе<br/>
+                вы сможете следить за полным процессом сделки.
+            </p>
+            <div class="steps-container">
+                <div class="stepblock" id="stepbl1">
+                    <p class="step-num">01</p>
+                    <h4><span>01</span>Вы оставляете заявку на нашем сайте</h4>
+                    <p class="step-info">
+                        Мы отправляем Вам каталог НОВОСТРОЕК МОСКВЫ
+                    </p>
+                    <!--                    <p class="stepinfolast" id="stepbrdr1">Find Location</p>-->
+                </div>
+                <div class="stepblock" id="stepbl2">
+                    <p class="step-num">02</p>
+                    <h4><span>02</span>Менеджер позвонит для уточнения Ваших критериев поиска и пожеланий</h4>
+                    <p class="step-info">
+                        Подбираем для Вас варианты
+                        и организуем просмотр
+                    </p>
+                    <!--                    <p class="stepinfolast" id="stepbrdr2">Find Location</p>-->
+                </div>
+                <div class="stepblock" id="stepbl3">
+                    <p class="step-num">03</p>
+                    <h4><span>03</span>Помогаем подготовить и заключить сделку с застройщиком</h4>
+                    <!--                    <p class="step-info">-->
+                    <!--                        Мы отправляем Вам каталог НОВОСТРОЕК МОСКВЫ-->
+                    <!--                    </p>-->
+                    <!--                    <p class="stepinfolast" id="stepbrdr3">Find Location</p>-->
+                </div>
             </div>
-            <div class="stepblock" id="stepbl2">
-              <p class="step-num">02</p>
-              <h4><span>02</span>Find Your Location</h4>
-              <p class="step-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-                quae nihil accusantium, velit quidem repellat.
-              </p>
-              <p class="stepinfolast" id="stepbrdr2">Find Location</p>
-            </div>
-            <div class="stepblock" id="stepbl3">
-              <p class="step-num">03</p>
-              <h4><span>03</span>Find Your Location</h4>
-              <p class="step-info">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-                quae nihil accusantium, velit quidem repellat.
-              </p>
-              <p class="stepinfolast" id="stepbrdr3">Find Location</p>
-            </div>
-          </div>
         </div>
-      </section>
-      <section class="services wrapper">
-        <h2>Services</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+    <section class="services wrapper">
+        <h2>Наши сервисы</h2>
+        <p>Наше Агентство предлагает уникальную экосистему сервисов </p>
+        <p>для инвестиций в высокобюджетную недвижимость.</p>
         <div class="serv-container">
-          <div class="serv-img-container">
-            <img src="img/room.jpg" alt="" />
-          </div>
-          <div class="serv-text">
-            <h4>Renting</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
-              quis praesentium. Pariatur, aspernatur!
-            </p>
-            <h4>Renting</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
-              quis praesentium. Pariatur, aspernatur!
-            </p>
-            <h4>Renting</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-              eaque sit modi, illo ipsa, corporis deserunt optio consequuntur ut
-              quis praesentium. Pariatur, aspernatur!
-            </p>
-          </div>
+            <div class="serv-img-container">
+                <img src="img/room.jpg" alt=""/>
+            </div>
+            <div class="serv-text">
+                <h4>Недвижимость</h4>
+                <p>
+                    Покупка, продажа и аренда
+                    элитных объектов
+                </p>
+                <h4>Аналитика</h4>
+                <p>
+                    Исследования и обзоры рынка премиум-класса
+                </p>
+                <h4>Консалтинг</h4>
+                <p>
+                    Комплексные решения для девелоперов
+                </p>
+                <h4>Юридический сервис</h4>
+                <p>
+                    Сопровождение сделок с элитной недвижимостью
+                </p>
+            </div>
         </div>
-      </section>
-      <section class="agents">
+    </section>
+    <search class="agents">
+        <a name="team"></a>
         <div class="wrapper">
-          <h2>Meet Our Agents</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-            Quae, nihil culpa! Voluptatem?
-          </p>
-          <div class="agent-cards">
-            <div class="agent-card">
-              <img src="img/people.jpg" alt="" />
-              <div class="agent-info">
-                <p>Agent</p>
-                <div class="agent-block">
-                  <p class="agent-name">Mr. Luke Skywalker</p>
-                  <div class="social">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="agent-card">
-              <img src="img/people.jpg" alt="" />
-              <div class="agent-info">
-                <p>Agent</p>
-                <div class="agent-block">
-                  <p class="agent-name">Mr. Luke Skywalker</p>
-                  <div class="social">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="agent-card">
-              <img src="img/people.jpg" alt="" />
-              <div class="agent-info">
-                <p>Agent</p>
-                <div class="agent-block">
-                  <p class="agent-name">Mr. Luke Skywalker</p>
-                  <div class="social">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="add wrapper">
-        <div class="add-line">
-          <div class="line-img">
-            <img src="img/room2.jpg" alt="" />
-            <div class="location location-Toronto">
-              <i class="fas fa-map-marker-alt"></i>
-              Toronto, Canada
-            </div>
-          </div>
-          <div class="line-text">
-            <h3>Super Awesome Add</h3>
+            <h2>Команда экспертов элитного рынка Москвы</h2>
+            <p>Сопровождают сделки по покупке, продаже, аренде премиальной недвижимости <br/></p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
-              quos porro natus reprehenderit modi voluptatem possimus earum
-              maxime repellat, sapiente, tenetur? Quis, maxime dolore fugit qui
-              adipisci provident doloribus numquam, ullam sint ab eos,
-              accusamus.
+                Kоманда продуктивных, смелых и талантливых ребят. Каждый из нас мотивирован на успех,<br/>
+                мы радуемся общим достижениям, получаем кайф от совместной работы и поддерживаем дружеский вайб.<br/>
+                Мы любим развиваться и повышать свои скиллы, проходить обучение,<br/>
+                участвовать в лекциях с топами рынка недвижимости, продаж, архитектуры и не только.
             </p>
-          </div>
+            <div class="agent-cards">
+                <div class="agent-card">
+                    <img src="img/people.jpg" alt=""/>
+                    <div class="agent-info">
+                        <p>Аналитик</p>
+                        <div class="agent-block">
+                            <p class="agent-name">Клара Виноградова</p>
+                            <div class="social">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agent-card">
+                    <img src="img/people.jpg" alt=""/>
+                    <div class="agent-info">
+                        <p>Менеджер по продаже</p>
+                        <div class="agent-block">
+                            <p class="agent-name">Ирина Иванова</p>
+                            <div class="social">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agent-card">
+                    <img src="img/people.jpg" alt=""/>
+                    <div class="agent-info">
+                        <p>Юрист</p>
+                        <div class="agent-block">
+                            <p class="agent-name">Наталья Николаевна</p>
+                            <div class="social">
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </search>
+    <section class="add wrapper">
+        <a name="case"></a>
+        <div class="add-line">
+            <div class="line-img">
+                <img src="img/kvartry-v-775-zhk-simvol-1661867872_3389.jpg" alt=""/>
+                <div class="location location-Toronto">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Саввинская 17, Москва
+                </div>
+            </div>
+            <div class="line-text">
+                <h3>Kлубный дом класса de luxe в одном в Хамовниках</h3>
+                <p>
+                    Площадь 22 роскошных квартир варьируется от 50,7 до 135,2 кв. м. В каждом помещении много света и
+                    воздуха
+                    <br>благодаря высоким потолкам от 6,4 до 7 м и большим окнам. В лотах на 4-м этаже можно установить
+                    камин.<br>
+
+                    В доме по-настоящему премиальный уровень коммуникаций: VRV-система кондиционирования, встроенная<br>
+                    приточно-вытяжной вентиляция, фильтры, очищающие воду до уровня питьевой.
+                </p>
+            </div>
         </div>
         <div class="add-line add-line-right" id="lot">
-          <div class="line-text">
-            <h3>Super Awesome Add</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
-              quos porro natus reprehenderit modi voluptatem possimus earum
-              maxime repellat, sapiente, tenetur? Quis, maxime dolore
-            </p>
-          </div>
-          <div class="line-img">
-            <img src="img/room2.jpg" alt="" />
-            <div class="location location-Canada">
-              <i class="fas fa-map-marker-alt"></i>
-              Toronto, Canada
+            <div class="line-text">
+                <h3>LUZHNIKI COLLECTION</h3>
+                <p>
+                    клубный проект премиум-класса в частном парке на берегу Москвы-реки. Комплекс расположен в<br>
+                    престижном районе столицы – Хамовники, рядом со знаменитым "Олимпийским комплексом «Лужники».<br>
+                    В проекте представлены 12 клубных домов и более 150 разнообразных планировочных решений.<br>
+                    При отделки просторных и уютных квартир используют только натуральные материалы. Большие окна и
+                    просторные<br>
+                    террасы откроют вам лучшие виды на Лужнецкую и Андреевскую набережную, природный заказник «Воробьевы<br>
+                </p>
             </div>
-          </div>
+            <div class="line-img">
+                <img style="width: 62%;" src="img/oirk9bo2tir18z09ycrv9pfpwebeb85g.png" alt=""/>
+                <div class="location location-Canada">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Лужнецкая набережная вл. 2/4, Москва
+                </div>
+            </div>
         </div>
         <div class="add-line">
-          <div class="line-img">
-            <img src="img/room2.jpg" alt="" />
-          </div>
-          <div class="line-text">
-            <h3>Super Awesome Add</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
-              quos porro natus reprehenderit modi voluptatem possimus earum
-              maxime repellat, sapiente, tenetur? Quis, maxime dolore fugit qui
-              accusamus.
-            </p>
-            <div class="show-more">Show me more</div>
-          </div>
+            <div class="line-img">
+                <img src="img/kvartry-v-4652-zhk-afi-tower-1700822347_6964.jpg" alt=""/>
+            </div>
+            <div class="line-text">
+                <h3>Саввинская 27</h3>
+                <p>
+                    элитный клубный дом на набережной. Он разместился в окружении парков столицы, в самом центре города
+                    — в районе Хамовники.<br>
+
+                    В доме запроектировано 66 лотов, из каждого открываются потрясающие виды на город благодаря высоким
+                    окнам и увеличенной площади остекления.<br>
+
+                    Охраняемая территория клубного дома подходит для тихого времяпрепровождения у водной глади, с видом<br>
+                    на город. Рядом — благоустроенная набережная, выйти к которой можно за пару минут.
+                </p>
+            </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="wrapper">
+    </section>
+</main>
+<footer>
+    <div class="wrapper">
         <div class="footer-block">
-          <div class="footer-logo">
-            <h3>Luxestate</h3>
-            <h3>Explore Real Estate</h3>
-          </div>
-          <div class="footer-search">
-            <input type="text" placeholder="Subscribe To Our Newsletter" />
-          </div>
+            <div class="footer-logo">
+                <h3>Luxestate</h3>
+                <h3>Исследуйте недвижимость</h3>
+            </div>
+            <div class="footer-search">
+                <input type="text" placeholder="Subscribe To Our Newsletter"/>
+            </div>
         </div>
-        <hr />
-        <div class="footer-links">
-          <div class="footer-links-logo">
-            <h4>Luxestate</h4>
-          </div>
-          <div class="footer-link">
-            <p>Luxestate</p>
-            <a href="#">Agents</a>
-            <a href="#">Hunters</a>
-          </div>
-          <div class="footer-link">
-            <p>Luxestate</p>
-            <a href="#">Agents</a>
-            <a href="#">Hunters</a>
-            <a href="#">Agents</a>
-            <a href="#">Hunters</a>
-          </div>
-          <div class="footer-link">
-            <p>Luxestate</p>
-            <a href="#">Agents</a>
-            <a href="#">Hunters</a>
-          </div>
-          <div class="footer-link">
-            <p>Luxestate</p>
-            <a href="#">Agents</a>
-            <a href="#">Hunters</a>
-            <a href="#">Hunters</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>
